@@ -1,0 +1,7 @@
+{
+  "name": "tuboletas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
