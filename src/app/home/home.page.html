@@ -1,24 +1,38 @@
+<link rel="stylesheet" href="home.page.scss" />
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title> Blank </ion-title>
+    <ion-title size="large"></ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-  <swiper-container>
-    [loop]="true" [pagination]="true"
-
-    <swiper-slide>slide 1</swiper-slide>
-    <swiper-slide>slide 1</swiper-slide>
-    <swiper-slide>slide 1</swiper-slide>
-    <swiper-slide>slide 1</swiper-slide>
-    <swiper-slide>slide 1</swiper-slide>
-    <swiper-slide>slide 1</swiper-slide>
-    <swiper-slide>slide 1</swiper-slide>
+  <swiper-container [loop]="true" [pagination]="true" [slidesPerView]="1">
+    <swiper-slide>
+      <img
+        src="https://www.nationalgeographic.com.es/medio/2022/12/12/aguila-2_d7d2206b_221212153725_310x310.jpg"
+      />
+      <h1 class="red-title">MORAT</h1>
+      <p>sss</p>
+      <p>Swipe para continuar</p>
+    </swiper-slide>
+    <swiper-slide>
+      <img
+        src="https://www.nationalgeographic.com.es/medio/2022/12/12/aguila-2_d7d2206b_221212153725_310x310.jpg"
+      />
+      <h1 class="red-title">MORAT</h1>
+      <p>sss</p>
+      <p>Swipe para continuar</p>
+    </swiper-slide>
   </swiper-container>
 </ion-content>
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="iniciarSeccion()">
+        <ion-icon slot="icon-only" name="log-in"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>
+      <img src="assets/img/logo.png" alt="Logo" />
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
