@@ -52,4 +52,17 @@ swiper-container {
       height: auto;
     }
   }
+  .slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .additional-info {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
 }
