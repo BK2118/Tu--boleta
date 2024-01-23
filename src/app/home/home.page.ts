@@ -10,6 +10,6 @@ export class HomePage {
   constructor(public navCtrl: NavController) {}
 
   iniciarSeccion() {
-    this.navCtrl.navigateForward('/iniciar-seccion');
+    this.navCtrl.navigateForward('/intro');
   }
 }
